@@ -251,19 +251,14 @@ header {
 
 .service-card {
   background: white;
-  padding: 40px 30px;
-  border-radius: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-  transition: all 0.3s ease;
-  border: 1px solid #eee;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
 }
 
 .service-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
   border-color: #49b1c8;
 }
 
@@ -280,8 +275,8 @@ header {
 
 .service-card p {
   color: #666;
-  line-height: 1.6;
   font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 iconify-icon {
@@ -299,4 +294,68 @@ iconify-icon {
 
 .scroll-down iconify-icon {
   font-size: 3rem;
+}
+
+.about-container {
+  padding: 120px 10% 60px 10%;
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #1f1e23;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #49b1c8;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-socials a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer-socials a:hover {
+  color: #49b1c8;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  color: #aaa;
 }
