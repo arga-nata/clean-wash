@@ -49,8 +49,8 @@ header {
 
 .hero {
   background: linear-gradient(to right, rgb(181, 241, 235), #f0fdf4);
-  padding: 140px 0 80px 0; 
-  height: 100vh;
+  padding: 140px 0 80px 0;
+  height: 100%;
 }
 
 .banner {
@@ -75,23 +75,6 @@ header {
   font-size: 1.1rem;
   color: #666;
   line-height: 1.6;
-}
-
-.banner_left button {
-  background-color: #49b1c8;
-  color: white;
-  width: 200px;
-  height: 48px;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-right: 10px;
-  transition: background 0.3s;
-}
-
-.banner_left button:hover {
-  background-color: #3d92a4;
 }
 
 .banner_right {
@@ -183,7 +166,8 @@ header {
   gap: 15px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -200,4 +184,43 @@ header {
 
 .contact-info {
   width: 30%;
+}
+
+.btn-solid,
+.btn-outline {
+  display: inline-block;
+  width: 200px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-solid {
+  background-color: #49b1c8;
+  color: white;
+  border: 2px solid #49b1c8;
+}
+
+.btn-solid:hover {
+  background-color: #3d92a4;
+  border-color: #3d92a4;
+}
+
+.btn-outline {
+  background-color: white;
+  color: #49b1c8;
+  border: 2px solid #49b1c8;
+}
+
+.btn-outline:hover {
+  background-color: #49b1c8;
+  color: white;
 }
