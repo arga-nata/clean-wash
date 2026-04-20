@@ -194,10 +194,6 @@ header {
   cursor: pointer;
 }
 
-.contact-info {
-  width: 30%;
-}
-
 .btn-solid,
 .btn-outline {
   display: inline-block;
